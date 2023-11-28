@@ -63,7 +63,7 @@ The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool
 
 ## Documentation
 
-The bpertussisciwgs pipeline comes with documentation about general  
+The bpertussisciwgs pipeline comes with [documentation](./docs/) about general  
 - [usage](./docs/usage.md)  
 - [output](./docs/output.md)  
 - [training](./docs/training.md)  
