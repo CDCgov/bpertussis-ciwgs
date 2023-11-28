@@ -6,11 +6,11 @@ The following steps demonstrate the basic use of in this workflow on the CDC HPC
 1. Clone the `Bpertussis-CIWGS` repo from GitLab into your home directory or a sub-directory:  
     ```consol
     cd ~/
-    git clone git@git.biotech.cdc.gov:mvpdb_pdl/Bpertussis-CIWGS.git
+    git clone https://github.com/CDCgov/bpertussis-ciwgs.git
     ```
     **OR** *If you have previously cloned the repo,* confirm that your local copy is up-to-date and on the master branch:
     ```consol
-    cd ~/path-to-your-local/Bpertussis-CIWGSt/
+    cd ~/path-to-your-local/Bpertussis-CIWGS/
     git checkout master
     git pull
     git status
@@ -41,7 +41,7 @@ The following steps demonstrate the basic use of in this workflow on the CDC HPC
     --outdir ./mytestrun \
     --mlst ./assets/wgMLST-v2-allele1-clean-20190103.fasta \
     --skesa true \
-    -profile singularity;
+    -profile sge,singularity;
     ```
 
 1. Monitor pipeline progress with the on-screen messages from Nextflow and ensure no error messages are produced.  
