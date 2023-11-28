@@ -70,8 +70,7 @@ The bpertussisciwgs pipeline comes with documentation about general
 
 ### Workflow diagram  
 
-![Bpertussis CIWGS workflow diagram](./docs/images/bpertussis-ciwgs_v20231117.png "Bpertussis CIWGS workflow diagram."){width=50%}  
-
+<img src="./docs/images/bpertussis-ciwgs_v20231117.png" title="Bpertussis CIWGS workflow diagram" alt="Bpertussis CIWGS workflow diagram" width="500" />
 
 ### Running on CDC HPC
 
