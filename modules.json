@@ -1,0 +1,50 @@
+{
+    "name": "nf-core/bpertussisciwgs",
+    "homePage": "https://github.com/nf-core/bpertussisciwgs",
+    "repos": {
+        "nf-core/modules": {
+            "fastqc": {
+                "git_sha": "e937c7950af70930d1f34bb961403d9d2aa81c7d"
+            },
+            "multiqc": {
+                "git_sha": "e937c7950af70930d1f34bb961403d9d2aa81c7d"
+            },
+            "nf-core/blast/blastn": {
+                "git_sha": "b6d4d476aee074311c89d82a69c1921bd70c8180"
+            },
+            "nf-core/bowtie2/align": {
+                "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c"
+            },
+            "nf-core/bowtie2/build": {
+                "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c"
+            },
+            "nf-core/quast": {
+                "git_sha": "0f8a77ff00e65eaeebc509b8156eaa983192474b"
+            },
+            "nf-core/samtools/depth": {
+                "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c"
+            },
+            "nf-core/samtools/fastq": {
+                "git_sha": "0f8a77ff00e65eaeebc509b8156eaa983192474b"
+            },
+            "nf-core/samtools/fixmate": {
+                "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c"
+            },
+            "nf-core/samtools/flagstat": {
+                "git_sha": "911696ea0b62df80e900ef244d7867d177971f73"
+            },
+            "nf-core/samtools/index": {
+                "git_sha": "0f8a77ff00e65eaeebc509b8156eaa983192474b"
+            },
+            "nf-core/samtools/markdup": {
+                "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c"
+            },
+            "nf-core/samtools/sort": {
+                "git_sha": "0f8a77ff00e65eaeebc509b8156eaa983192474b"
+            },
+            "nf-core/samtools/view": {
+                "git_sha": "0f8a77ff00e65eaeebc509b8156eaa983192474b"
+            }
+        }
+    }
+}
