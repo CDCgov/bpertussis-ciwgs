@@ -36,10 +36,10 @@ The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool
 
     > **CDC Users:** Only singularity containers should be used on CDC SciComp infrastructure (biolinux, aspen, rosalind).
 
-3. Clone the pipeline repo to your working environment and test it on a minimal dataset with a single command:
+3. Clone the pipeline repo to your working environment:
 
     ```console
-    git clone git@git.biotech.cdc.gov:yrh8/Bpertussis-CIWGS.git
+    git clone git@github.com:CDCgov/bpertussis-ciwgs.git
     ```
 
 4. Test the pipeline using a minimal dataset using the command:
