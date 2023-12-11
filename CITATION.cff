@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: Bpertussis-ciwgs
+message: >-
+  If you use this pipeline, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Michael
+    family-names: Weigand
+    orcid: 'https://orcid.org/0000-0002-7278-0160'
+    affiliation: Centers for Disease Control and Prevention
+repository-code: 'https://github.com/CDCgov/bpertussis-ciwgs'
+license: Apache-2.0
+version: v1-Beta
+date-released: '2023-11-29'
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Peng
+    given-names: Yanhui
+  - family-names: Williams
+    given-names: Margaret
+  - family-names: Xiaoli
+    given-names: Lingzi
+  - family-names: Simon
+    given-names: Ashley
+  - family-names: Fueston
+    given-names: Heather
+  - family-names: Tondella
+    given-names: Maria Lucia
+  - family-names: Weigand
+    given-names: Michael
+    orcid: "https://orcid.org/0000-0002-7278-0160"
+  doi: "10.1101/2023.12.08.570824v1"
+  journal: "bioRxiv"
+  title: "Strengthening Bordetella pertussis genomic surveillance by direct sequencing of residual positive specimens"
+  year: 2023
