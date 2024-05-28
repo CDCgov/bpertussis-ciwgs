@@ -1,3 +1,2 @@
 sample,fastq_1,fastq_2
-EPS5-sub250k,/scicomp/groups/OID/NCIRD/DBD/MVPDB/PDL/Illumina_trimmed/XX.Training_data/TestReads-CIWGS/EPS5-sub250k_L001_R1_001.fastq.gz,/scicomp/groups/OID/NCIRD/DBD/MVPDB/PDL/Illumina_trimmed/XX.Training_data/TestReads-CIWGS/EPS5-sub250k_L001_R2_001.fastq.gz
-EPS9-sub250k,/scicomp/groups/OID/NCIRD/DBD/MVPDB/PDL/Illumina_trimmed/XX.Training_data/TestReads-CIWGS/EPS9-sub250k_L001_R1_001.fastq.gz,/scicomp/groups/OID/NCIRD/DBD/MVPDB/PDL/Illumina_trimmed/XX.Training_data/TestReads-CIWGS/EPS9-sub250k_L001_R2_001.fastq.gz
+SRR27109063-sub150k,./assets/reads/SRR27109063-sub150k_1.fastq.gz,./assets/reads/SRR27109063-sub150k_2.fastq.gz
