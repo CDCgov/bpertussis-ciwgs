@@ -12,7 +12,7 @@ process SAMTOOLS_FASTQ {
     val(interleave)
 
     output:
-    tuple val(meta), path("*.R{1,2}.fastq.gz")     , optional:true, emit: fastq
+    tuple val(meta), path("*_R{1,2}_*.fastq.gz")   , optional:true, emit: fastq
     tuple val(meta), path("*_interleaved.fastq.gz"), optional:true, emit: interleaved
     tuple val(meta), path("*_singleton.fastq.gz")  , optional:true, emit: singleton
     tuple val(meta), path("*_other.fastq.gz")      , optional:true, emit: other
@@ -28,7 +28,7 @@ process SAMTOOLS_FASTQ {
     def filt = task.ext.filt ?: ''
     def output = ( interleave && ! meta.single_end ) ? "> ${prefix}_interleaved.fastq.gz" :
         meta.single_end ? "-1 ${prefix}_1.fastq.gz -s ${prefix}_singleton.fastq.gz" :
-        "-1 ${prefix}.${filt}R1.fastq.gz -2 ${prefix}.${filt}R2.fastq.gz" // -s ${prefix}_singleton.fastq.gz"
+        "-1 ${prefix}_R1_${filt}.fastq.gz -2 ${prefix}_R2_${filt}.fastq.gz" // -s ${prefix}_singleton.fastq.gz"
     """
     samtools sort -n --threads ${task.cpus-1} $input -o ${prefix}.${suffix}namesort.bam
     samtools \\
