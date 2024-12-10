@@ -41,6 +41,12 @@
                     "type": "string",
                     "description": "MultiQC report title. Printed as page header, used for filename if not otherwise specified.",
                     "fa_icon": "fas fa-file-signature"
+                },
+                "keep_big_files": {
+                    "type": "boolean",
+                    "description": "Option to keep large intermediate *bam and *fastq files.",
+                    "default": false,
+                    "fa_icon": "fas fa-floppy-disk"
                 }
             }
         },
